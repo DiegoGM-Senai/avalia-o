@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="av.css">
+    <title>avaliação</title>
+</head>
+
+<body>
+    <header>
+        <h1>Velocidade Média</h1>
+        <div class="PGs">
+            <nav class="menu">
+            <h2><a href="Av.Html"> HOME</a></h2>
+            <h2><a href="sobre.html">SOBRE</a></h2>
+            </nav>
+          
+        </div>
+        
+    </header>
+
+    <div class="content">
+        <h2> calculo</h2>
+        <input type="number" id="ValorDeslo" placeholder="informe o valor do deslocamento">
+        <p></p>
+        <input type="number" id="tempo" placeholder="informe o tempo">
+        <p></p>
+        <input type="text" id="velocidade" placeholder="velocidade" readonly>
+        <button onclick="limpar()">LIMPAR</button> <button onclick="calcular()"> CALCULAR </button>
+    </div>
+    <div class="resu">
+       <h2 id="Hresu">Resultado</h2>
+        <p></p>
+            <textarea name="" id="text" cols="30" rows="18">
+                
+            </textarea>
+            </div>
+    <footer>
+Uma família viaja de São Paulo para o Rio de Janeiro, para passar as férias. A viagem
+tem duração de 6 horas em um percurso de 435 km. Qual a velocidade média do automóvel?
+
+    </footer>
+    <script src="av.js"></script>
+</body>
+
+</html>
